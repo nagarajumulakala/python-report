@@ -5,3 +5,13 @@ A = 5
 B = 10
 C = A + B
 print("The sum of A and B is:", C) 
+#
+def greet(name):
+    return f"Hello, {name}!"
+
+print(greet("Nagaraju"))
+
+
+
+for i in range(5):
+    print("Iteration:", i)
